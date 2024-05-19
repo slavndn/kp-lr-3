@@ -1,0 +1,16 @@
+{
+  "name": "project2",
+  "version": "0.0.1",
+  "description": "my bulma project with node-sass tool",
+  "main": "sass/mystyle.scss",
+  "scripts": {
+    "build-bulma": "sass --load-path=node_modules my-bulma-project.scss my-bulma-project.css",
+    "start": "npm run build-bulma -- --watch"
+  },
+  "author": "Danya Slavniy",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^1.0.0",
+    "sass": "^1.72.0"
+  }
+}
